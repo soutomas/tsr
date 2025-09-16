@@ -19,3 +19,5 @@ RoxygenNote: 7.3.2
 Imports: 
     magrittr,
     rmarkdown
+URL: https://github.com/soutomas/tsr
+BugReports: https://github.com/soutomas/tsr/issues
