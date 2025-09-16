@@ -1,0 +1,21 @@
+Type: Package
+Package: tsr
+Title: Convenient Functions Written by Tomas Sou
+Version: 0.1.2.9000
+Authors@R: 
+    person("Tomas", "Sou", , "tomas.sou@carexer.com", role = c("aut", "cre"))
+Description: Convenient functions written by Tomas Sou
+License: MIT + file LICENSE
+Suggests:
+    flextable,
+    ggplot2,
+    kableExtra,
+    knitr,
+    patchwork,
+    rstudiopai
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports: 
+    magrittr,
+    rmarkdown
