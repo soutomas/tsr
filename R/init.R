@@ -3,7 +3,7 @@
 # Use      : Convenient functions
 # Author   : Tomas Sou
 # Created  : 2025-08-29
-# Updated  : 2025-09-17
+# Updated  : 2025-09-18
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Notes
 # na
@@ -175,7 +175,7 @@ summ_cont = function(d,cols,xname=""){
     dplyr::select({{cols}}) |>
     dplyr::summarise(
       dplyr::across(
-        dplyr::where(dplyr::is.numeric),
+        dplyr::where(is.numeric),
         list(
           Mean = ~mean(.x, na.rm=T),
           Med = ~median(.x, na.rm=T),
