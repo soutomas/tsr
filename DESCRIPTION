@@ -7,6 +7,7 @@ Authors@R:
 Description: Convenient functions written by Tomas Sou
 License: MIT + file LICENSE
 Suggests:
+    dplyr,
     flextable,
     ggplot2,
     kableExtra,

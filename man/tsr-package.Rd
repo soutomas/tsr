@@ -8,6 +8,14 @@
 \description{
 Convenient functions written by Tomas Sou
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/soutomas/tsr}
+  \item Report bugs at \url{https://github.com/soutomas/tsr/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Tomas Sou \email{tomas.sou@carexer.com}
 
