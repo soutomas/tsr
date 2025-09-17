@@ -21,8 +21,8 @@ Summarise selected continuous variables.
 Variables can be grouped beforehand.
 }
 \examples{
-mtcars |> summ_cont(cols=mpg)
-mtcars |> summ_cont(mpg,"mpg_")
+mtcars |> summ_cont(mpg)
+mtcars |> summ_cont(cols=mpg,xname="mpg_")
 mtcars |> group_by(vs,am) |> summ_cont(mpg,"mpg_")
 mtcars |> group_by(vs,am) |> summ_cont(cols=c(mpg,disp))
 }
