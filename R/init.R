@@ -166,6 +166,7 @@ label_src = function(span=2,omit=""){
 #' @returns A data frame of summarised variables
 #' @export
 #' @examples
+#' library(dplyr)
 #' mtcars |> summ_cont(mpg)
 #' mtcars |> summ_cont(cols=mpg,xname="mpg_")
 #' mtcars |> group_by(vs,am) |> summ_cont(mpg,"mpg_")
